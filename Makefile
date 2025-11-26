@@ -1,7 +1,6 @@
 install:
 	uv sync
-	uv pip install "vllm>=0.8.5" --torch-backend=auto
-
+	uv pip install "vllm==0.11.2" --torch-backend=auto
 	uv run python -c "import vllm; print('vllm version:', vllm.__version__)"
 	uv run python -c "import torch; print('torch version:', torch.__version__)"
 	uv run python -c "import transformers; print('transformers version:', transformers.__version__)"
