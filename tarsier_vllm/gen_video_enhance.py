@@ -12,8 +12,8 @@ from vllm import LLM, EngineArgs, SamplingParams
 def make_engine_args(model_name: str, max_num_seqs: int = 4):
     return EngineArgs(
         model=model_name,
-        # dtype="half", 
-        # kv_cache_dtype="fp8",
+        # dtype="half", # dangerous: may cause instability 
+        # kv_cache_dtype="fp8", # dangerous: may cause instability 
         enable_chunked_prefill=True,
         enable_prefix_caching=True, 
 
