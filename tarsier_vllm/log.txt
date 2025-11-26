@@ -1,0 +1,105 @@
+
+Video: /home/nhtlong/activity-description-generation/data/ads1.mp4 -> 2 chunk(s)
+Video: /home/nhtlong/activity-description-generation/data/ads2.mp4 -> 1 chunk(s)
+Video: /home/nhtlong/activity-description-generation/data/lifelog1.mp4 -> 5 chunk(s)
+Video: /home/nhtlong/activity-description-generation/data/lifelog2.mp4 -> 6 chunk(s)
+
+Processing batch 1/4
+  - /home/nhtlong/activity-description-generation/data/ads1.mp4 (Chunk 1: 0.0s - 64.0s): 128 frames
+  - /home/nhtlong/activity-description-generation/data/ads1.mp4 (Chunk 2: 64.0s - 99.9s): 71 frames
+  - /home/nhtlong/activity-description-generation/data/ads2.mp4: 107 frames
+  - /home/nhtlong/activity-description-generation/data/lifelog1.mp4 (Chunk 1: 0.0s - 64.0s): 127 frames
+Adding requests: 100%|██████████████████████████████████████████████████████████████████| 4/4 [00:01<00:00,  3.41it/s]
+Processed prompts: 100%|██████████| 4/4 [02:52<00:00, 43.02s/it, est. speed input: 216.00 toks/s, output: 3.87 toks/s]
+
+Processing batch 2/4
+  - /home/nhtlong/activity-description-generation/data/lifelog1.mp4 (Chunk 2: 64.0s - 128.0s): 127 frames
+  - /home/nhtlong/activity-description-generation/data/lifelog1.mp4 (Chunk 3: 128.0s - 192.0s): 127 frames
+  - /home/nhtlong/activity-description-generation/data/lifelog1.mp4 (Chunk 4: 192.0s - 256.0s): 127 frames
+  - /home/nhtlong/activity-description-generation/data/lifelog1.mp4 (Chunk 5: 256.0s - 316.6s): 121 frames
+Adding requests: 100%|██████████████████████████████████████████████████████████████████| 4/4 [00:01<00:00,  3.04it/s]
+Processed prompts: 100%|██████████| 4/4 [02:39<00:00, 39.88s/it, est. speed input: 270.29 toks/s, output: 3.10 toks/s]
+
+Processing batch 3/4
+  - /home/nhtlong/activity-description-generation/data/lifelog2.mp4 (Chunk 1: 0.0s - 64.0s): 127 frames
+  - /home/nhtlong/activity-description-generation/data/lifelog2.mp4 (Chunk 2: 64.0s - 128.0s): 127 frames
+  - /home/nhtlong/activity-description-generation/data/lifelog2.mp4 (Chunk 3: 128.0s - 192.0s): 127 frames
+  - /home/nhtlong/activity-description-generation/data/lifelog2.mp4 (Chunk 4: 192.0s - 256.0s): 127 frames
+Adding requests: 100%|██████████████████████████████████████████████████████████████████| 4/4 [00:01<00:00,  2.34it/s]
+Processed prompts: 100%|██████████| 4/4 [02:35<00:00, 38.88s/it, est. speed input: 280.50 toks/s, output: 2.89 toks/s]
+
+Processing batch 4/4
+  - /home/nhtlong/activity-description-generation/data/lifelog2.mp4 (Chunk 5: 256.0s - 320.0s): 127 frames
+  - /home/nhtlong/activity-description-generation/data/lifelog2.mp4 (Chunk 6: 320.0s - 362.6s): 85 frames
+Adding requests: 100%|██████████████████████████████████████████████████████████████████| 2/2 [00:00<00:00,  3.72it/s]
+Processed prompts: 100%|██████████| 2/2 [01:37<00:00, 48.53s/it, est. speed input: 187.95 toks/s, output: 2.38 toks/s]
+
+=== Batch Results ===
+
+--- Video 1 ---
+Path: /home/nhtlong/activity-description-generation/data/ads1.mp4
+Question: Describe the video content in detail.
+Chunks: 2
+
+Answer:
+[Part 1: 0.0s - 64.0s]
+Two children, a boy and a girl, are seen talking and then turning to face the camera, with subtitles appearing on the screen. The scene transitions to a man and a woman sitting on a couch, with the woman holding a book. The screen displays text in Vietnamese, and the scene changes to a delivery person riding a motorcycle with a Jollibee delivery box. A hand presses a doorbell, and the delivery person arrives, handing a large bucket of chicken to the children. The family members, including the man and woman, are seen talking and interacting with each other. The children and the adults continue their conversation, with the girl raising her hand and the boy crossing his arms. The family members express their preferences about eating, and the girl tries to take the chicken from the boy. The man and woman look at each other, and the scene transitions to a close-up of fried chicken. The video ends with a shot of a street scene and the family members eating the chicken.
+
+[Part 2: 64.0s - 99.9s]
+Two children, a boy and a girl, are eating fried chicken at a table. The girl takes a big bite of her chicken, followed by the boy who also takes a big bite. The parents, a man and a woman, watch them with surprise as the children continue eating. The children finish their chicken, leaving only crumbs in the bucket. The parents look shocked and concerned. A mascot character arrives at the door, carrying a large bucket of fried chicken, and the children excitedly run towards it. The mascot character pours the chicken into the bucket on the table, and the family starts eating together, enjoying the meal. The video ends with a promotional image showing the family happily eating Jollibee's Chickenjoy, with a price tag of 30,000 VND.
+--------------------------------------------------------------------------------
+
+--- Video 2 ---
+Path: /home/nhtlong/activity-description-generation/data/ads2.mp4
+Question: Describe the video content in detail.
+Chunks: 1
+
+Answer:
+A young girl holds up a set of cards with cartoon characters and shows them to the camera, while a woman sits across from her at a table in a cozy, colorful room filled with toys and books. The girl leans forward, and the camera zooms in on the cards, revealing a close-up of one of the cards. The scene transitions to the girl driving a toy car on a track in the room, with animated graphics overlaying the video. The girl and the woman are then seen playing with a large stuffed bear and other toys in a room filled with plush animals. The girl and the woman playfully interact, with the girl hugging the woman and kissing her on the cheek. The video ends with the woman and the girl lying on a bed, covered with a blanket, and smiling at the camera.
+--------------------------------------------------------------------------------
+
+--- Video 3 ---
+Path: /home/nhtlong/activity-description-generation/data/lifelog1.mp4
+Question: Describe the video content in detail.
+Chunks: 5
+
+Answer:
+[Part 1: 0.0s - 64.0s]
+The video begins with a black screen displaying 'Produced by Epidemic Sound' text, which then fades away. The camera moves from the ceiling to the floor, showing a wooden ceiling and a room with windows and furniture. A person picks up a phone from a table, turns off the alarm, and puts the phone down. The person gets out of bed, puts on a watch, and puts on glasses. They then put on a hat, walk down the stairs, and turn on a record player. The person stokes the fire in the fireplace, opens the door to the balcony, and takes a sip of coffee while looking out at the scenic view of the lake and mountains.
+
+[Part 2: 64.0s - 128.0s]
+The video begins with a scenic view of a lake surrounded by mountains and trees, with a dock extending into the water. The scene transitions to a bathroom where a person turns on a shower, washes their hands, and adjusts their hair in front of a mirror. The person then puts on a yellow jacket, walks through a hallway, and heads to a boat on the dock. They get into the boat, start fishing, and then use binoculars to spot three people on the shore. The person then packs clothes into a bag, walks to a car, and gets inside to drive away.
+
+[Part 3: 128.0s - 192.0s]
+A car drives through a forested area, and a person skates behind it, holding a rope tied to the car. The person skates through a snowy landscape, then transitions to an urban setting, running through a city street. The person crosses a street, boards a bus, and explores the interior. The person then drives through a forest, stops, and walks towards a watchtower. The person examines a map, then enters a diner, sits down, and eats a burger.
+
+[Part 4: 192.0s - 256.0s]
+A person holds a burger and takes a bite, then the scene transitions to a dark screen before showing a hand opening a tent, revealing a scenic lake and mountains in the background. The person draws water from the lake, drinks it, and then throws a stone into the water. The person walks along the lakeside, picks up a stone, and throws it into the water. The person then walks through a forest, climbs a set of stairs, and enters a structure inside an old airplane. The person drives a car through a forested area and finally reaches a waterfall.
+
+[Part 5: 256.0s - 316.6s]
+The video begins with a view of a waterfall surrounded by cliffs and trees, then a person in a yellow jacket appears, standing on rocks near the waterfall. The camera zooms out to show the waterfall from above, followed by a dog running towards the person and being petted. The person walks towards the waterfall, and the camera captures the waterfall from different angles. The camera then shows the ground and the waterfall from above, transitioning to a scene where a person is floating on a pink flamingo in the water. The person takes photos of the waterfall, and the scene shifts to a coastal view with a house by the water. The person walks through a forested area, enters a cabin, and lies down on a bed. The video ends with credits and behind-the-scenes footage.
+--------------------------------------------------------------------------------
+
+--- Video 4 ---
+Path: /home/nhtlong/activity-description-generation/data/lifelog2.mp4
+Question: Describe the video content in detail.
+Chunks: 6
+
+Answer:
+[Part 1: 0.0s - 64.0s]
+The video begins with a black screen displaying text about the music and sound effects being sponsored by Epidemic Sound, followed by a transition to a dimly lit room. The camera moves from the ceiling down to a person lying in bed, who reaches for their phone on the bedside table. The person turns off the alarm on their phone and gets out of bed, pulling back the curtains to let in the light. The camera then shows a view of the cityscape outside the window before the person takes a shower, puts on clothes, and exits the room. The person is seen running towards the exit, grabbing a towel with a phone on it, and then picking up the phone to answer a call. Finally, the person exits the building and rides a bicycle.
+
+[Part 2: 64.0s - 128.0s]
+The video begins with a first-person view of someone riding a bicycle through a city, navigating through streets and passing by buildings. The camera captures various angles of the cityscape, including tall buildings and street scenes. The cyclist interacts with another person on a bicycle, exchanging a high-five. The cyclist then approaches and touches a glass panel at an aquarium, observing the jellyfish inside. The video concludes with the cyclist picking up an umbrella from the ground.
+
+[Part 3: 128.0s - 192.0s]
+The video begins with a person holding an umbrella as they descend an escalator in a subway station. They retrieve a ticket from a machine and pass through the turnstiles. The person then boards a train, walks through the carriage, and sits down. They open a map and put on headphones, preparing for the flight. The person then takes off their headphones and starts flying a helicopter, capturing aerial views of Vancouver, including the cityscape and mountainous landscape.
+
+[Part 4: 192.0s - 256.0s]
+A person holds a camera and takes a photo of a cityscape at sunset, then the camera view shifts to a waterfall surrounded by trees, moving downward to capture the flowing water and the surrounding forest. The camera then moves through the forest, showing close-up details of moss and ferns, before transitioning to a view of a suspension bridge overlooking the waterfall. The person walks across the bridge, enters a market, and picks up some food items from the display. The person then interacts with a staff member at the counter, receiving a bag of food.
+
+[Part 5: 256.0s - 320.0s]
+A person picks up a bag from a counter, runs to the beach, and places a piece of driftwood on the ground before taking out a sandwich from the bag and throwing it into the air. The person then sits on the driftwood, watching the sunset over the city skyline. A dog runs towards the person, and they interact. The scene transitions to the person entering a room, walking towards a door, and opening it. The person then appears in a forest, talking and gesturing with their hands.
+
+[Part 6: 320.0s - 362.6s]
+A man in a black hoodie is standing in a forested area, gesturing with his hands while talking. The screen then shows a webpage with various music tracks and categories from 'Epidemic Sound.' The man continues to talk and gesture, and text appears at the bottom of the screen saying 'LINK IN THE DESCRIPTION.' He then puts on a mechanical device with multiple components and continues to talk and gesture. The video ends with credits rolling, listing the shot by, edited by, sound design by, bike model by, colored by, FPV drone by, and sponsored by, followed by a transition to a black screen.
