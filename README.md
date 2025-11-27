@@ -1,4 +1,4 @@
-# Activity Description Generation
+# VLLM tools for Multimedia Data Curation
 
 Collection of ready-to-use, high-performance LLM/VLM workflows for data curation and annotation. Built to streamline multimedia understanding tasks with scalable batching, chunking, and preview generation.
 
